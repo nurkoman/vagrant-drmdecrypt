@@ -1,0 +1,1 @@
+"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" internalcommands createrawvmdk -filename samsungxfsdrive.vmdk -rawdisk \\.\PHYSICALDRIVE1
