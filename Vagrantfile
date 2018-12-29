@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision "shell", inline: <<-SHELL
     apt-get install -y git
-    git clone https://github.com/decke/drmdecrypt.git
+    git clone https://code.bluelife.at/decke/drmdecrypt.git
     cd drmdecrypt
     make
     make install
